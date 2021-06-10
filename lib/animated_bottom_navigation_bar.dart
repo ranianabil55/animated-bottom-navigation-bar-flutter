@@ -285,9 +285,17 @@ class _AnimatedBottomNavigationBarState
       ),
       clipBehavior: Clip.antiAlias,
       child: Material(
-        color: widget.backgroundColor ?? Colors.white,
+        // color: widget.backgroundColor ?? Colors.white,
         child: SafeArea(
           child: Container(
+            decoration: BoxDecoration(
+                gradient: LinearGradient(
+                    begin: Alignment(0.2319605052471161, 0.5),
+                    end: Alignment(1.3096845149993896, -0.38303157687187195),
+                    colors: [
+                  const Color(0xff6ab873),
+                  const Color(0xff00a6dd)
+                ])),
             height: widget.height ?? 56,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,

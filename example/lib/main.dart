@@ -140,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage>
               ],
             );
           },
-          backgroundColor: HexColor('#373A36'),
+          //  backgroundColor: HexColor('#373A36'),
           activeIndex: _bottomNavIndex,
           splashColor: HexColor('#FFA400'),
           notchAndCornersAnimation: animation,
